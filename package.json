@@ -1,0 +1,23 @@
+{
+  "name": "tsworkflow",
+  "version": "1.0.0",
+  "description": "Typescript workflow with gulp",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorilic/tsWorkflow.git"
+  },
+  "keywords": [
+    "typescript",
+    "gulp"
+  ],
+  "author": "Igor Ilic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorilic/tsWorkflow/issues"
+  },
+  "homepage": "https://github.com/igorilic/tsWorkflow#readme"
+}
