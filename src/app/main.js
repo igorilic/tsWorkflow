@@ -8,5 +8,6 @@ var Main = (function () {
     return Main;
 })();
 var greeter = new Main('World');
+greeter.greet();
 
 //# sourceMappingURL=main.js.map

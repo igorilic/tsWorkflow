@@ -8,3 +8,5 @@ class Main {
 	}
 }
 var greeter = new Main('World');
+
+greeter.greet();
