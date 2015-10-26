@@ -4,6 +4,7 @@
   "description": "Typescript workflow with gulp",
   "main": "server.js",
   "scripts": {
+    "serve": "gulp serve",
     "test": "test"
   },
   "repository": {
@@ -19,5 +20,23 @@
   "bugs": {
     "url": "https://github.com/igorilic/tsWorkflow/issues"
   },
-  "homepage": "https://github.com/igorilic/tsWorkflow#readme"
+  "homepage": "https://github.com/igorilic/tsWorkflow#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "serve-static": "^1.10.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tsd": "0.0.4",
+    "gulp-tslint": "^3.4.0",
+    "gulp-typescript": "^2.9.2",
+    "gulp-util": "^3.0.7",
+    "tsd": "^0.6.5",
+    "wiredep": "^2.2.2"
+  }
 }
